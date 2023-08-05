@@ -1,8 +1,8 @@
 {
   "name": "react-portfolio-template",
   "version": "3.0",
-  "homepage": "http://stefanoscolapasta.github.io/personal/pages",
-  "private": true,
+  "homepage": "http://stefanoscolapasta.github.io/pages",
+  "private": false,
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
