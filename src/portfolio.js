@@ -1,4 +1,4 @@
-import aboutpic from "./components/Access/me.jpg"
+import aboutpic from "./components/Access/meProfile.png"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -13,7 +13,7 @@ const about = {
   role: 'Softare Engineer with a keen interest in Computer Graphics',
   description:
     "Computer Science Master's student @KTH\nSoftware Engineer Intern @Warner Bros. Discovery",
-  resume: 'https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1GR8_OOmip3iCjaIeDIoASROB5da3snU6/view?usp=drive_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/stefano-scolari/',
     github: 'https://github.com/stefanoscolapasta',
@@ -26,9 +26,12 @@ const projects = [
   {
     name: 'Real-Time Mesh Fracturing and Destruction using Voronoi Diagrams',
     description:
-      'As users, we see a page that lets anyone look for the movies from the search bar by key words, and obtaining the actual or similar movies with their years, actors, rating, and description information by recommendation. In addition, they can search the nearby theaters from where they currently are located.',
+      'The objective of this project was to explore the computation of 3D Voronoi diagrams of meshes and their accompanying Delaunay' +
+      ' tetrahedralization as a means of achieving realistic mesh destruction and fracturing in video games. The Voronoi diagram is a'+
+      ' geometric representation that divides the space around each mesh vertex into regions, assigning each region to its closest vertex.',
     stack: ['C++, OpenGL, Computational Geomtry'],
     sourceCode: 'https://github.com/stefanoscolapasta/3D-Voronoi-Fracturing',
+    livePreview: 'https://drive.google.com/file/d/1Hq9jtTxvcZ4ic6DJrsJFFkSe_KlGgnBs/view?usp=drive_link'
   },
   {
     name: 'Polywar',
