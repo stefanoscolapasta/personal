@@ -89,12 +89,20 @@ const projects = [
     livePreview: 'https://drive.google.com/file/d/1Hq9jtTxvcZ4ic6DJrsJFFkSe_KlGgnBs/view?usp=drive_link'
   },
   {
+    name: 'Hermite Cubic Spline Curve Editor',
+    description:
+      'Created an editing tool for Cubic Hermite Splines',
+    stack: ['C++', 'OpenGL', 'Computational Geometry'],
+    sourceCode: 'https://github.com/stefanoscolapasta/Hermite-Cubic-Spline-Curve-Editor',
+  },
+  {
     name: 'Polywar',
     description:
       'Developed, as a two-man team, a multiplayer FPS game released on Steam',
     stack: ['Blender', 'Unity', 'C#'],
     livePreview: 'https://store.steampowered.com/app/444490/POLYWAR/',
   },
+  
 ]
 
 const skills = [
