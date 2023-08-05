@@ -29,14 +29,14 @@ const projects = [
       'The objective of this project was to explore the computation of 3D Voronoi diagrams of meshes and their accompanying Delaunay' +
       ' tetrahedralization as a means of achieving realistic mesh destruction and fracturing in video games. The Voronoi diagram is a'+
       ' geometric representation that divides the space around each mesh vertex into regions, assigning each region to its closest vertex.',
-    stack: ['C++, OpenGL, Computational Geomtry'],
+    stack: ['C++, OpenGL, Computational Geometry, 3D Computer Graphics'],
     sourceCode: 'https://github.com/stefanoscolapasta/3D-Voronoi-Fracturing',
     livePreview: 'https://drive.google.com/file/d/1Hq9jtTxvcZ4ic6DJrsJFFkSe_KlGgnBs/view?usp=drive_link'
   },
   {
     name: 'Polywar',
     description:
-      'Developed in a two-man team a multiplayer FPS game released on Steam',
+      'Developed, as a two-man team, a multiplayer FPS game released on Steam',
     stack: ['Blender', 'Unity', 'C#'],
     livePreview: 'https://store.steampowered.com/app/444490/POLYWAR/',
   },
