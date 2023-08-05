@@ -5,6 +5,11 @@
   background-color: var(--clr-bg);
 }
 
+.body {
+  font-family: 'Poppins', sans-serif
+}
+
+
 .light {
   --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;

@@ -1,13 +1,13 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-
+import uniqid from 'uniqid'
 import './About.css'
 import { FormatAlignLeft } from '@material-ui/icons'
 import { Grid, Typography } from '@material-ui/core'
 import { about } from '../../portfolio'
 
 const About = () => {
-  const { photo, name, role, description, resume, social } = about
+  const { photo, name, role, resume, social } = about
 
   return (
     <div className='about center'>
@@ -16,32 +16,16 @@ const About = () => {
       )}
       {name && (
         <>
+          <h3 style={{marginTop: 20, paddingBottom: 7}}>
+            Welcome! My name is
+          </h3>
           <h1>
-            Welcome!
+             <span className='about__name'>{name}</span>
           </h1>
-          <h2>
-            My name is <span className='about__name'>{name}.</span>
-          </h2>
         </>
       )}
 
-      {role && <h2 className='about__role'>{role}.</h2>}
-      <Grid
-        style={{
-          marginTop: 40
-        }}
-        container
-        direction='column'
-        spacing={2}
-        alignItems="center"
-        justifyContent="center"
-      >
-        {
-          description.miniResumeList.map(entry =>
-            <Grid item><Typography variant='body1' alignItems='left'>{entry[1]}</Typography></Grid>
-          )
-        }
-      </Grid>
+      {role && <h2 className='about__role'>A {role}.</h2>}
 
       <Grid
         style={{
