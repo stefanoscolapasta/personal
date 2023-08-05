@@ -11,8 +11,12 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'STEFANO SCOLARI',
   role: 'Softare Engineer with a keen interest in Computer Graphics',
-  description:
-    "Computer Science Master's student @KTH\nSoftware Engineer Intern @Warner Bros. Discovery",
+  description: {
+    miniResumeList:[
+      [1, "Computer Science Master's student @KTH"],
+      [2, "Software Engineer Intern @Warner Bros. Discovery"]
+    ] 
+  },
   resume: 'https://drive.google.com/file/d/1GR8_OOmip3iCjaIeDIoASROB5da3snU6/view?usp=drive_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/stefano-scolari/',
