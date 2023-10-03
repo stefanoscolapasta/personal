@@ -109,6 +109,8 @@ const projects = [
     description: 'Had fun creating a raytracer with no external libraries',
     stack: ['C++', 'Rendering', 'Computer Graphics'],
     sourceCode: 'https://github.com/stefanoscolapasta/Raytracer',
+    livePreview:
+      'https://drive.google.com/file/d/1dZ3Pzlr2PvQdSETss2HvnFsm7AG1_D0-/view?usp=drive_link',
   },
   {
     name: 'Hermite Cubic Spline Curve Editor',
