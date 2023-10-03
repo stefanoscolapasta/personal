@@ -86,7 +86,7 @@ const projects = [
       ' geometric representation that divides the space around each mesh vertex into regions, assigning each region to its closest vertex.',
     stack: ['C++, OpenGL, Computational Geometry, 3D Computer Graphics'],
     sourceCode: 'https://github.com/stefanoscolapasta/3D-Voronoi-Fracturing',
-    livePreview: 'https://drive.google.com/file/d/1Hq9jtTxvcZ4ic6DJrsJFFkSe_KlGgnBs/view?usp=drive_link'
+    livePreview: 'https://drive.google.com/file/d/1dZ3Pzlr2PvQdSETss2HvnFsm7AG1_D0-/view?usp=drive_link'
   },
   {
     name: 'Hermite Cubic Spline Curve Editor',
