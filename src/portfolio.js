@@ -1,4 +1,4 @@
-import aboutpic from "./components/Access/meProfile.png"
+import aboutpic from './components/Access/meProfile.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -7,17 +7,18 @@ const header = {
 }
 
 const about = {
-  photo:aboutpic,
+  photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'STEFANO SCOLARI',
   role: 'Software Engineer with a keen interest in Computer Graphics',
   description: {
-    miniResumeList:[
+    miniResumeList: [
       [1, "Computer Science Master's student @KTH"],
-      [2, "Software Engineer Intern @Warner Bros. Discovery"]
-    ] 
+      [2, 'Software Engineer Intern @Warner Bros. Discovery'],
+    ],
   },
-  resume: 'https://drive.google.com/file/d/1GR8_OOmip3iCjaIeDIoASROB5da3snU6/view?usp=drive_link',
+  resume:
+    'https://drive.google.com/file/d/1GR8_OOmip3iCjaIeDIoASROB5da3snU6/view?usp=drive_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/stefano-scolari/',
     github: 'https://github.com/stefanoscolapasta',
@@ -30,18 +31,17 @@ const education = [
   {
     university: 'KTH Royal Institute of Technology',
     level: "Master's",
-    course: "Computer Science (Visualization and Computer Graphics)",
-    grade: "Current GPA: 4.33/5",
-    date: "2022-09 / current"
+    course: 'Computer Science (Visualization and Computer Graphics)',
+    grade: 'Current GPA: 4.33/5',
+    date: '2022-09 / current',
   },
   {
     university: 'Alma Mater Studiorum - University of Bologna',
     level: "Bachelor's",
-    course: "Engineering and Computer Science",
-    grade: "Graduation grade: 109/110",
-    date: "2019-09 / 2022-07"
-  }
-
+    course: 'Engineering and Computer Science',
+    grade: 'Graduation grade: 109/110',
+    date: '2019-09 / 2022-07',
+  },
 ]
 
 const experience = [
@@ -50,28 +50,44 @@ const experience = [
   {
     title: 'Software Engineer Intern',
     company: 'Warner Bros. Discovery',
-    skills: ['Typescript', 'React', 'WebSockets', 'Javascript', 'Koa'],
-    period: ['June 2023.06 / August 2023'],
-    responsibility: 'Worked on a new collaborative editing feature for Studio, internal tool used to manage HBO Max and Discovery Plus.' + 
-    " Handled real-time communication and updates through Websocket connections. Collaborated on the creation of an ad-hoc Backend Service for such feature." + 
-    " Developed a custom component in React, now used by Studio users."
+    skills: [
+      'Typescript',
+      'React',
+      'WebSockets',
+      'Javascript',
+      'Koa',
+      'Testing',
+      'CI/CD',
+    ],
+    period: ['June 2023 / August 2023'],
+    responsibility:
+      'Worked on a new collaborative editing feature for Studio, internal tool used to manage HBO Max and Discovery Plus.' +
+      ' Handled real-time communication and updates through Websocket connections. Collaborated on the creation of an ad-hoc Backend Service for such feature.' +
+      ' Developed a custom component in React, now used by Studio users.',
   },
   {
     title: 'Software Engineer',
     company: 'Bordr',
     period: ['November 2022 / April 2023'],
     skills: ['Typescript', 'WebRTC', 'CloudXR', 'VR'],
-    responsibility: 'During my stay at Bordr, I worked on the development of a VR streaming service, with the aim of enabling low-latency VR gaming streaming.',
+    responsibility:
+      'During my stay at Bordr, I worked on the development of a VR streaming service, with the aim of enabling low-latency VR gaming streaming.',
   },
   {
     title: 'Undergraduate Student Researcher',
     company: 'Alma Mater Studiorum - University of Bologna',
     period: ['January 2022 / March 2022'],
-    skills: ['Blender', 'Python', 'Computation Fluid Dynamics', 'Computer Graphics'],
-    responsibility: 'Internship focused on Computational Fluid Dynamics, under the supervision of prof. Damiana Lazzaro.'+
-    ' Objective of this experience was to study the physical and mathematical principles at the basis of Computational Fluid Dynamics (CFDs),'+
-    ' together with numerical algorithms and methods. Implementing a fluid simulation in Computer Graphics, using MantaFlow and Python, represented'+
-    ' the final step of this internship.',
+    skills: [
+      'Blender',
+      'Python',
+      'Computation Fluid Dynamics',
+      'Computer Graphics',
+    ],
+    responsibility:
+      'Internship focused on Computational Fluid Dynamics, under the supervision of prof. Damiana Lazzaro.' +
+      ' Objective of this experience was to study the physical and mathematical principles at the basis of Computational Fluid Dynamics (CFDs),' +
+      ' together with numerical algorithms and methods. Implementing a fluid simulation in Computer Graphics, using MantaFlow and Python, represented' +
+      ' the final step of this internship.',
   },
 ]
 
@@ -81,19 +97,33 @@ const projects = [
   {
     name: 'Real-Time Mesh Fracturing and Destruction using Voronoi Diagrams',
     description:
-      'The objective of this project was to explore the computation of 3D Voronoi diagrams of meshes and their accompanying Delaunay' +
-      ' tetrahedralization as a means of achieving realistic mesh destruction and fracturing in video games. The Voronoi diagram is a'+
-      ' geometric representation that divides the space around each mesh vertex into regions, assigning each region to its closest vertex.',
+      'Explored the computation of 3D Voronoi Diagrams of meshes and their accompanying Delaunay' +
+      ' tetrahedralization.',
     stack: ['C++, OpenGL, Computational Geometry, 3D Computer Graphics'],
     sourceCode: 'https://github.com/stefanoscolapasta/3D-Voronoi-Fracturing',
-    livePreview: 'https://drive.google.com/file/d/1Hq9jtTxvcZ4ic6DJrsJFFkSe_KlGgnBs/view?usp=drive_link'
+    livePreview:
+      'https://drive.google.com/file/d/1dZ3Pzlr2PvQdSETss2HvnFsm7AG1_D0-/view?usp=drive_link',
+  },
+  {
+    name: 'Raytracer',
+    description: 'Had fun creating a raytracer with no external libraries',
+    stack: ['C++', 'Rendering', 'Computer Graphics'],
+    sourceCode: 'https://github.com/stefanoscolapasta/Raytracer',
   },
   {
     name: 'Hermite Cubic Spline Curve Editor',
-    description:
-      'Created an editing tool for Cubic Hermite Splines',
+    description: 'Created an editing tool for Cubic Hermite Splines',
     stack: ['C++', 'OpenGL', 'Computational Geometry'],
-    sourceCode: 'https://github.com/stefanoscolapasta/Hermite-Cubic-Spline-Curve-Editor',
+    sourceCode:
+      'https://github.com/stefanoscolapasta/Hermite-Cubic-Spline-Curve-Editor',
+  },
+  {
+    name: '2D Lighting Raycast System',
+    description:
+      'Created a 2D lighting system based on raycasting and polygon triangulation.',
+    stack: ['C++', 'SFML', 'Computer Graphics'],
+    sourceCode:
+      'https://github.com/stefanoscolapasta/2D_Raycast_Lighting_System',
   },
   {
     name: 'Polywar',
@@ -102,7 +132,6 @@ const projects = [
     stack: ['Blender', 'Unity', 'C#'],
     livePreview: 'https://store.steampowered.com/app/444490/POLYWAR/',
   },
-  
 ]
 
 const skills = [
@@ -116,7 +145,7 @@ const skills = [
   'TypeScript',
   'Java',
   'React',
-  'Computer Graphics'
+  'Computer Graphics',
 ]
 
 const contact = {
@@ -124,4 +153,4 @@ const contact = {
   email: 'stevescolari97@gmail.com',
 }
 
-export { header, about,education, projects, skills, contact, experience }
+export { header, about, education, projects, skills, contact, experience }
