@@ -18,7 +18,7 @@ const about = {
     ],
   },
   resume:
-    'https://drive.google.com/file/d/1GR8_OOmip3iCjaIeDIoASROB5da3snU6/view?usp=drive_link',
+    'https://drive.google.com/file/d/1T5g2tn6Hb52tRgOVu3YBEtPkQQTuK33-/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/stefano-scolari/',
     github: 'https://github.com/stefanoscolapasta',
