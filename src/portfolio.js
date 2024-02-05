@@ -32,7 +32,7 @@ const education = [
     university: 'KTH Royal Institute of Technology',
     level: "Master's",
     course: 'Computer Science (Visualization and Computer Graphics)',
-    grade: 'Current GPA: 4.33/5',
+    grade: 'Current GPA: 4.5/5',
     date: '2022-09 / current',
   },
   {
@@ -47,6 +47,33 @@ const education = [
 const experience = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    title: 'Master Thesis Student Researcher',
+    company: 'EA (Electronic Arts), EA Seed',
+    skills: [
+      'Gaussian Splatting',
+      'Real-Time Rendering', 
+      'C++',
+      'Computer Graphics',
+    ],
+    period: ['February 2024 / present'],
+    responsibility:
+    "Working within EA's Research Division (EA Seed) on my Master's Thesis regarding Gaussian Splatting for Real Time rendering"
+  },
+  {
+    title: 'XR Software Engineer Intern',
+    company: 'European Space Agency',
+    skills: [
+      'Computer Graphics',
+      'Unreal Engine 5', 
+      'Software Engineering',
+    ],
+    period: ['October 2023 / February 2024'],
+    responsibility:
+    'Support the development of Argonaut and Human Inspirator VR/AR projects for future'+
+    ' lunar missions in Unreal Engine 5 within the XR-Lab and managed software approaches and development'+
+    ' in a small interdisciplinary team using Unreal Engine 5'
+  },
   {
     title: 'Software Engineer Intern',
     company: 'Warner Bros. Discovery',
@@ -95,6 +122,13 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'OpenGL experiments',
+    description:
+      'To further my understanding of OpenGL, I have been experimenting with with the API and its features',
+    stack: ['C++, OpenGL, 3D Computer Graphics'],
+    sourceCode: 'https://github.com/stefanoscolapasta/OpenGL-Experiments',
+  },
+  {
     name: 'Real-Time Mesh Fracturing and Destruction using Voronoi Diagrams',
     description:
       'Explored the computation of 3D Voronoi Diagrams of meshes and their accompanying Delaunay' +
@@ -108,9 +142,7 @@ const projects = [
     name: 'Raytracer',
     description: 'Had fun creating a raytracer with no external libraries',
     stack: ['C++', 'Rendering', 'Computer Graphics'],
-    sourceCode: 'https://github.com/stefanoscolapasta/Raytracer',
-    livePreview:
-      'https://drive.google.com/file/d/1dZ3Pzlr2PvQdSETss2HvnFsm7AG1_D0-/view?usp=drive_link',
+    sourceCode: 'https://github.com/stefanoscolapasta/Raytracer'
   },
   {
     name: 'Hermite Cubic Spline Curve Editor',
