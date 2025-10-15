@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className='about center'>
       {photo && (
-        <img height="200px" alt="Avatar placeholder" src={photo} />
+        <img height="250px" alt="Avatar placeholder" src={photo} />
       )}
       {name && (
         <>
@@ -25,7 +25,7 @@ const About = () => {
         </>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      {role && <h2 className='about__role'>{role}.</h2>}
 
       <Grid
         style={{

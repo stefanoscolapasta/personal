@@ -3,25 +3,26 @@ import aboutpic from './components/Access/meProfile.png'
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://stefanoscolapasta.github.io/personal/',
-  title: 'Computer Graphics',
+  title: 'GPU programming and Rendering enthusiast',
 }
 
 const about = {
   photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'STEFANO SCOLARI',
-  role: 'Software Engineer with a keen interest in Computer Graphics',
+  role: 'R&D Software Engineer with a keen interest in GPU programming, Computer Graphics and Real-Time Rendering',
   description: {
     miniResumeList: [
-      [1, "Computer Science Master's student @KTH"],
-      [2, 'Software Engineer Intern @Warner Bros. Discovery'],
+      [1, "R&D Rendering Developer @EA SEED (Electronic Arts)"],
+      [2, "XR Software Engineer Intern @European Space Agency"],
+      [3, "Software Engineer Intern @Warner Bros. Discovery"],
     ],
   },
   resume:
     'https://drive.google.com/file/d/1T5g2tn6Hb52tRgOVu3YBEtPkQQTuK33-/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/stefano-scolari/',
-    github: 'https://github.com/stefanoscolapasta',
+    github: 'https://github.com/scolariscolapasta',
   },
 }
 
@@ -31,9 +32,9 @@ const education = [
   {
     university: 'KTH Royal Institute of Technology',
     level: "Master's",
-    course: 'Computer Science (Visualization and Computer Graphics)',
+    course: 'Computer Science (Computer Graphics)',
     grade: 'Current GPA: 4.5/5',
-    date: '2022-09 / current',
+    date: '2022-09 / 2024-09',
   },
   {
     university: 'Alma Mater Studiorum - University of Bologna',
@@ -48,7 +49,24 @@ const experience = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    title: 'Master Thesis Student Researcher',
+    title: 'R&D Rendering Developer',
+    company: 'EA (Electronic Arts), EA Seed',
+    skills: [
+      'Gaussian Splatting',
+      'C++',
+      'HLSL',
+      'GPGPU',
+      'DirectX12',
+      'Python',
+      'Pix',
+      'Nvidia Nsight',
+    ],
+    period: ['September 2024 / present'],
+    responsibility:
+    "Tinkering with pixels and triangles within EA's Research Division (EA Seed), working on cutting-edge rendering techniques and pushing the boundaries of real-time graphics.",
+  },
+  {
+    title: "Master's Thesis Intern",
     company: 'EA (Electronic Arts), EA Seed',
     skills: [
       'Gaussian Splatting',
@@ -56,7 +74,7 @@ const experience = [
       'C++',
       'Computer Graphics',
     ],
-    period: ['February 2024 / present'],
+    period: ['February 2024 / September 2024'],
     responsibility:
     "Working within EA's Research Division (EA Seed) on my Master's Thesis regarding Gaussian Splatting for Real Time rendering"
   },
@@ -122,6 +140,13 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Mesh2Splat',
+    description:
+      "fast surface splatting approach used to convert 3D meshes into 3DGS (3D Gaussian Splatting) models by exploiting the rasterizer's interpolator.",
+    stack: ['C++, GLSL, OpenGL'],
+    sourceCode: 'https://github.com/electronicarts/mesh2splat',
+  },
+  {
     name: 'OpenGL experiments',
     description:
       'To further my understanding of OpenGL, I have been experimenting with with the API and its features',
@@ -173,13 +198,14 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'C',
   'C++',
+  'DirectX12',
   'OpenGL',
+  'Pix Capture',
+  'Nvidia Nsight',
   'Python',
+  'Java',
   'JavaScript',
   'TypeScript',
-  'Java',
-  'React',
-  'Computer Graphics',
 ]
 
 const contact = {
